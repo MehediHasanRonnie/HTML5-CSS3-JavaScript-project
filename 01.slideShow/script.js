@@ -11,4 +11,4 @@ setInterval(() => {
   } else {
     currentElement.nextElementSibling.classList.add("current");
   }
-}, 3000);
+}, 3500);

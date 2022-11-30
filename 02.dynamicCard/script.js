@@ -18,21 +18,8 @@ const posts = [
   },
 ];
 
-/* <div class="post">
-<h4 class="post-title">post title 1</h4>
-<p class="post-body">post description1</p>
-</div> */
 
-//fetch data fro api
-// const fecthData = async (config) => {
-//   try {
-//     const res = await axios(config);
-//     return res.data;
-//   } catch (error) {
-//     throw Error("data is not fetched");
-//   }
-// };
-// //selection
+ //selection
 
 const postsElement = document.querySelector(".posts");
 
@@ -48,3 +35,19 @@ const loadAllData = async () => {
   });
 };
 loadAllData();
+
+
+/* <div class="post">
+<h4 class="post-title">post title 1</h4>
+<p class="post-body">post description1</p>
+</div> */
+
+//fetch data fro api
+// const fecthData = async (config) => {
+//   try {
+//     const res = await axios(config);
+//     return res.data;
+//   } catch (error) {
+//     throw Error("data is not fetched");
+//   }
+// };

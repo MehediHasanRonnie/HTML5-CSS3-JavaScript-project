@@ -33,7 +33,7 @@ h1 {
 
 /* responsive for smaller device */
 
-@media screen and (max-width: 992px) {
+@media screen {
   .post {
     width: 100%;
   }

@@ -1,0 +1,40 @@
+/* reset code starts */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*reset code ends */
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+/*post starts here */
+.posts {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.post {
+  width: 23%;
+  margin: 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+.post:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  background-color: aqua;
+}
+/*post ends here */
+
+/* responsive for smaller device */
+
+@media screen and (max-width: 992px) {
+  .post {
+    width: 100%;
+  }
+}
